@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	RewriteAttributes
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::RewriteAttributes -  concise attribute rewriting
 Name:		perl-HTML-RewriteAttributes
 Version:	0.05
@@ -10,6 +10,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	808ac50716f778f410a87658bd00f40c
+URL:		http://search.cpan.org/dist/HTML-RewriteAttributes/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
