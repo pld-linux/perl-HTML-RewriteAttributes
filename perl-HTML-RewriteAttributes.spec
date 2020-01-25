@@ -1,6 +1,5 @@
 %define		pdir	HTML
 %define		pnam	RewriteAttributes
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::RewriteAttributes -  concise attribute rewriting
 Name:		perl-HTML-RewriteAttributes
 Version:	0.05
