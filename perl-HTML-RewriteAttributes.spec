@@ -2,13 +2,13 @@
 %define		pnam	RewriteAttributes
 Summary:	HTML::RewriteAttributes -  concise attribute rewriting
 Name:		perl-HTML-RewriteAttributes
-Version:	0.05
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	808ac50716f778f410a87658bd00f40c
+# Source0-md5:	292587e7b5541ac7b3145d7ab63ca730
 URL:		http://search.cpan.org/dist/HTML-RewriteAttributes/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
